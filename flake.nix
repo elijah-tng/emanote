@@ -23,8 +23,8 @@
             layers = [ ./. ];
             layersString = [ "." ];
             # port = 8080;
-            baseUrl = "/emanote-template/"; # Change to "/" (or remove it entirely) if using CNAME
-            # prettyUrls = true;
+            baseUrl = "/emanote/"; # Change to "/" (or remove it entirely) if using CNAME
+            # prettyUrls = true; ## description = ''Generate links without .html'';
           };
         };
         devShells.default = pkgs.mkShell {
