@@ -5,6 +5,10 @@ on:
     branches:
       #
       - master
+
+permissions:
+  contents: write
+
 jobs:
   emanote:
     runs-on: ubuntu-latest
